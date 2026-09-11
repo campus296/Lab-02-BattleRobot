@@ -45,7 +45,11 @@
       </counter>
       <counter>
         <item-type type-id="class" type="Class" />
-        <value>4</value>
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="element-detail" type="Element Detail" />
+        <value>1</value>
       </counter>
     </entity-names>
     <entity-ids>
@@ -95,7 +99,7 @@
       </counter>
       <counter>
         <item-type type-id="property" type="Property" />
-        <value>50</value>
+        <value>56</value>
       </counter>
       <counter>
         <item-type type-id="extend" type="Entend" />
@@ -111,11 +115,11 @@
       </counter>
       <counter>
         <item-type type-id="class" type="Class" />
-        <value>5</value>
+        <value>6</value>
       </counter>
       <counter>
         <item-type type-id="usage" type="Usage" />
-        <value>5</value>
+        <value>9</value>
       </counter>
       <counter>
         <item-type type-id="uml-required-interface-connector" type="Required Interface Connector" />
@@ -123,6 +127,10 @@
       </counter>
       <counter>
         <item-type type-id="uml-required-interface-end" type="Required Interface End" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="element-detail" type="Element Detail" />
         <value>2</value>
       </counter>
     </entity-ids>
@@ -143,7 +151,7 @@
     <fields>
       <counter>
         <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
-        <value>10</value>
+        <value>22</value>
       </counter>
     </fields>
   </counters>
@@ -187,7 +195,17 @@
     <custom-types>
       <parameters />
       <types>
+        <type id="IPAdress" name="IPAdress" />
+        <type id="Class:22d661483fa34005a9615d9d3b78f4f4" name="Partie" class-ref="22d661483fa34005a9615d9d3b78f4f4" />
+        <type id="P" name="P" />
+        <type id="Par" name="Par" />
+        <type id="IPEndPoint" name="IPEndPoint" />
+        <type id="Pa" name="Pa" />
         <type id="Class:e89fa079e48441298ea9f8942eb67f78" name="Robot" class-ref="e89fa079e48441298ea9f8942eb67f78" />
+        <type id="Parti" name="Parti" />
+        <type id="Socket" name="Socket" />
+        <type id="Part" name="Part" />
+        <type id="(int, int, int)" name="(int, int, int)" />
       </types>
     </custom-types>
   </types>
@@ -222,7 +240,7 @@
     <item id="104102f5fcf143c7b78823b4497d143f" cid="PROP040" type="property" owner="a24940eca21a40149324f4718e3e8343" creator="" creation-date="09/09/2026 22:08:36" visibility="private" />
   </items>
   <models>
-    <model id="pb08f975c9b7f4a6d8fa6cd76f8051a33_924338148" name="Model1" namespace="" order-index="1">
+    <model id="pb08f975c9b7f4a6d8fa6cd76f8051a33_924338148" name="Model1" namespace="" order-index="1" expanded="true">
       <meta>
         <authors>
           <author>William Gagné</author>
@@ -734,7 +752,7 @@
         </abstract-items>
         <layer id="28bb4ad722eb4e29baf3553b8a78ac66" name="Default" visible="true" enabled="true" locked="false">
           <item id="d28b3c9278a14432a5eb797f51aa64f5" iid="28ad56706846414a9b085bea6ae36fa0" creation-date="09/09/2026 21:38:11" order-index="0" type="entity">
-            <layout ax="-65" ay="40" awidth="891" aheight="803" x="-65" y="40" width="891" height="803" expanded="135,47,891,803" collapsed="0,0,0,0" />
+            <layout ax="-65" ay="40" awidth="767" aheight="746" x="-65" y="40" width="767" height="746" expanded="-65,40,767,746" collapsed="0,0,0,0" />
           </item>
           <item id="961c33dd9c10459e89045b9ff6011a10" iid="dbcebaf209b348cc875162cb796a4b00" creation-date="09/09/2026 21:38:30" order-index="1" type="entity">
             <layout name-position="0,10" name-anchor="bottom" auto-anchor="true" label-attached="false" ax="-241" ay="108" awidth="50" aheight="100" x="-241" y="108" width="50" height="120" />
@@ -765,7 +783,7 @@
             <use-case />
           </item>
           <item id="757bd36e0c19431692e82ad02e9f1e7d" iid="779fbf8162a64001beea812e65cb962b" container="d28b3c9278a14432a5eb797f51aa64f5" container-iid="28ad56706846414a9b085bea6ae36fa0" creation-date="09/09/2026 21:43:18" order-index="10" type="entity">
-            <layout ax="634" ay="313.5" awidth="120" aheight="75" x="634" y="313.5" width="120" height="75" />
+            <layout ax="551" ay="164.5" awidth="120" aheight="75" x="551" y="164.5" width="120" height="75" />
             <use-case />
           </item>
           <item id="a8bd1db619d04e9bb8048bcaf4efccc6" iid="35e859b90c114999b7eaa980e6b43464" container="d28b3c9278a14432a5eb797f51aa64f5" container-iid="28ad56706846414a9b085bea6ae36fa0" creation-date="09/09/2026 21:44:17" order-index="11" type="entity">
@@ -893,7 +911,7 @@
             <relation from="961c33dd9c10459e89045b9ff6011a10" from-iid="dbcebaf209b348cc875162cb796a4b00" to="d18eb4b815b94cfbb1c70a6c9638b727" to-iid="66a5be50e50348728091f92d4fecd0c7" />
           </item>
           <item id="048193f1899846db95b2a4f303e71011" iid="e721fe743a684053b195cddaf167a0d9" container="d28b3c9278a14432a5eb797f51aa64f5" container-iid="28ad56706846414a9b085bea6ae36fa0" creation-date="09/09/2026 22:05:35" order-index="32" type="relation">
-            <layout line-style="oblique" lock-start-point="true" lock-to-fields="false" auto-path="" x1="276" y1="98" x2="316" y2="141" start-border-pos="0.3739127591252327" end-border-pos="0.016025616572453424" start-local-pos="37.17383" name-position="-15,18">
+            <layout line-style="oblique" lock-start-point="true" lock-to-fields="false" auto-path="" x1="276" y1="98" x2="316" y2="141" start-border-pos="0.3739127591252327" end-border-pos="0.016025616572453424" start-local-pos="37.17383" name-position="21,-17">
               <points>
                 <point x="276" y="98" />
                 <point x="316" y="141" />
@@ -930,17 +948,17 @@
             <relation from="961c33dd9c10459e89045b9ff6011a10" from-iid="dbcebaf209b348cc875162cb796a4b00" to="fe0c7079c2354bb29e8fccee67948084" to-iid="f5043c88344b4651ac866395a18685df" />
           </item>
           <item id="c2ca3c0608284adea7e8f94b7b6fa0bd" iid="7e7277a158904bae9d95574e93ee96ce" container="d28b3c9278a14432a5eb797f51aa64f5" container-iid="28ad56706846414a9b085bea6ae36fa0" creation-date="09/09/2026 22:08:59" order-index="36" type="relation">
-            <layout line-style="oblique" start-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="551" y1="351" x2="634" y2="346" start-border-pos="0.3733333349227905" end-border-pos="0.8933333307504654" start-local-pos="37" end-local-pos="32" name-position="-14,16">
+            <layout line-style="oblique" start-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="551" y1="351" x2="611" y2="239" start-border-pos="0.3733333349227905" end-border-pos="0.625" start-local-pos="37" end-local-pos="60" name-position="-27,-0.7102356">
               <points>
                 <point x="551" y="351" />
-                <point x="634" y="346" />
+                <point x="611" y="239" />
               </points>
             </layout>
             <relation from="fe0c7079c2354bb29e8fccee67948084" from-iid="f5043c88344b4651ac866395a18685df" to="757bd36e0c19431692e82ad02e9f1e7d" to-iid="779fbf8162a64001beea812e65cb962b" />
           </item>
         </layer>
       </diagram>
-      <diagram type="uml-class" id="pcd493b5a485b4ab78c8c5cb6e6de2c92_273308160" name="ClassDiagram1" order-index="6" overview-order-index="4" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="290,-4">
+      <diagram type="uml-class" id="pcd493b5a485b4ab78c8c5cb6e6de2c92_273308160" name="ClassDiagram1" order-index="6" expanded="true" overview-order-index="4" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="-186,-13">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -952,11 +970,14 @@
           </authors>
           <description />
           <creation-date>09/09/2026 22:09:45</creation-date>
-          <change-date>09/09/2026 22:41:45</change-date>
+          <change-date>09/11/2026 15:30:19</change-date>
           <revision-count>0</revision-count>
           <version />
         </meta>
         <abstract-items>
+          <item id="a0cf72f1bbb345439e3d6af6b0afa073" cid="PROP051" type="property" name="endPoint" owner="5cd73361f1884842a2a33d78e5e54290" creation-date="09/11/2026 15:07:50" visibility="private">
+            <structural-feature type="IPEndPoint" type-id="IPEndPoint" />
+          </item>
           <item id="a7af9062593f409684d0dfc9b2511f6e" cid="C001" type="class" name="Robot" creator="" creation-date="09/09/2026 22:09:51" visibility="undefined">
             <owned-items />
             <attributes>
@@ -982,25 +1003,50 @@
             </operations>
           </item>
           <item id="8825fa9f1f9f441c8d07aaa012df5faa" cid="C003" type="class" name="Server" creator="" creation-date="09/09/2026 22:22:05" visibility="undefined">
-            <owned-items />
-            <attributes>
-              <attribute id="a9082f768f63b44569ed8a115051bad2e318" cid="PROP048" name="ip" creation-date="09/09/2026 22:23:07" property-ref="7ac25fa098db439086d3b171bf450390" />
-              <attribute id="a33df7bdaede4434fa82f27dd292bdbc0581" cid="PROP049" name="port" creation-date="09/09/2026 22:23:11" property-ref="b013710a3d9d4690b1b3d21fa6a8248c" />
-            </attributes>
+            <operations>
+              <operation id="of217964825614ac4a848d9f1c918faab210" cid="OP011" name="CreerRobot" creation-date="09/11/2026 14:38:14" type="Robot" type-id="Class:e89fa079e48441298ea9f8942eb67f78" visibility="public">
+                <parameters>
+                  <parameter id="pe4a8e6d592c84867be70db24b790703d" name="pVie" type="Integer" type-id="Uml.Integer" creation-date="09/11/2026 14:39:02" />
+                  <parameter id="p351371e0802f48dd88a485a8afdc4221" name="pArmor" type="Integer" type-id="Uml.Integer" creation-date="09/11/2026 14:39:19" />
+                  <parameter id="p933b1929c61f4ae6979803e070428754" name="pForce" type="Integer" type-id="Uml.Integer" creation-date="09/11/2026 14:39:47" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="od892ebad2ed14f2096576c302ef132c7720" cid="OP012" name="TransmettreMiseAJour" creation-date="09/11/2026 14:44:48" type="Integer" type-id="Uml.Integer" visibility="public" />
+              <operation id="o4b4ce8f4a83c4efab57e9e46a5bf3d82961" cid="OP016" name="LancerHerbergment" creation-date="09/11/2026 15:02:22" type="" type-id="" visibility="public" />
+              <operation id="obd4c12b03ea94da4a709b5c076243506396" cid="OP018" name="RejouerPartie" creation-date="09/11/2026 15:14:22" type="" type-id="" visibility="public" />
+              <operation id="o3e0e55d5091f425293931d273fd9a535365" cid="OP021" name="RetournerEnAttente" creation-date="09/11/2026 15:18:34" type="" type-id="" visibility="public" />
+            </operations>
           </item>
-          <item id="7ac25fa098db439086d3b171bf450390" cid="PROP048" type="property" name="ip" owner="8825fa9f1f9f441c8d07aaa012df5faa" creator="" creation-date="09/09/2026 22:23:07" visibility="private">
-            <structural-feature type="String" type-id="Uml.String" />
-          </item>
-          <item id="d496f5a843a049ebbd62a33cd60407d1" cid="PROP046" type="property" name="nom" owner="5cd73361f1884842a2a33d78e5e54290" creator="" creation-date="09/09/2026 22:14:11" visibility="private">
-            <structural-feature type="String" type-id="Uml.String" />
-          </item>
-          <item id="89c36fa6cd4a44a1ae2f1b1837760856" cid="ELEM004" type="usage" creator="" creation-date="09/09/2026 22:20:21" from="5cd73361f1884842a2a33d78e5e54290" to="a7af9062593f409684d0dfc9b2511f6e" visibility="package">
+          <item id="ebbd3b7dc4854ddaabb5b3b6423d9a70" cid="ELEM008" type="usage" creation-date="09/11/2026 15:30:19" from="5cd73361f1884842a2a33d78e5e54290" to="22d661483fa34005a9615d9d3b78f4f4" visibility="package">
             <stereotypes>
               <stereotype name="use" />
             </stereotypes>
             <stereotype-instances>
-              <stereotype id="89c36fa6cd4a44a1ae2f1b1837760856_use_c" type="use" creation-date="09/09/2026 22:20:21" ref="" />
+              <stereotype id="ebbd3b7dc4854ddaabb5b3b6423d9a70_use_c" type="use" creation-date="09/11/2026 15:30:19" ref="" />
             </stereotype-instances>
+          </item>
+          <item id="5dc85ff4b1a64802b8b99c0f739e67dc" cid="ELEM007" type="usage" creation-date="09/11/2026 15:30:11" from="22d661483fa34005a9615d9d3b78f4f4" to="a7af9062593f409684d0dfc9b2511f6e" visibility="package">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="5dc85ff4b1a64802b8b99c0f739e67dc_use_c" type="use" creation-date="09/11/2026 15:30:11" ref="" />
+            </stereotype-instances>
+          </item>
+          <item id="d496f5a843a049ebbd62a33cd60407d1" cid="PROP046" type="property" name="nom" owner="5cd73361f1884842a2a33d78e5e54290" creator="" creation-date="09/09/2026 22:14:11" visibility="private">
+            <structural-feature type="String" type-id="Uml.String" />
+          </item>
+          <item id="68307e1d742c4800a727ba8eb606f3c6" cid="PROP054" type="property" name="status" owner="22d661483fa34005a9615d9d3b78f4f4" creation-date="09/11/2026 15:29:05" visibility="private">
+            <structural-feature type="Integer" type-id="Uml.Integer" />
+          </item>
+          <item id="a9e766aab2b547bfb0488510d74ecf8c" cid="PROP050" type="property" name="socket" owner="5cd73361f1884842a2a33d78e5e54290" creation-date="09/11/2026 15:03:31" visibility="private">
+            <structural-feature type="Socket" type-id="Socket" />
+          </item>
+          <item id="d0c15b84b7a24411a1aacd8aed682399" cid="PROP055" type="property" name="partie" owner="5cd73361f1884842a2a33d78e5e54290" creation-date="09/11/2026 15:30:26" visibility="private">
+            <structural-feature type="Partie" type-id="Class:22d661483fa34005a9615d9d3b78f4f4" />
           </item>
           <item id="e89fa079e48441298ea9f8942eb67f78" cid="PROP045" type="property" name="Robot" owner="5cd73361f1884842a2a33d78e5e54290" creator="" creation-date="09/09/2026 22:13:58" visibility="private">
             <structural-feature type="Robot" type-id="Class:e89fa079e48441298ea9f8942eb67f78" />
@@ -1008,7 +1054,32 @@
           <item id="6ec8619d29e340f995673d37d3cd542a" cid="PROP041" type="property" name="pv" owner="a7af9062593f409684d0dfc9b2511f6e" creator="" creation-date="09/09/2026 22:10:14" visibility="private">
             <structural-feature type="Integer" type-id="Uml.Integer" />
           </item>
-          <item id="a7d7fedc6ee4426eb965e62be4d413f8" cid="C004" type="class" name="Client" creator="" creation-date="09/09/2026 22:22:21" visibility="undefined" />
+          <item id="a59d5d563cf845138af0218772ff5578" cid="PROP053" type="property" name="robotClient" owner="22d661483fa34005a9615d9d3b78f4f4" creation-date="09/11/2026 15:28:53" visibility="private">
+            <structural-feature type="Robot" type-id="Class:e89fa079e48441298ea9f8942eb67f78" />
+          </item>
+          <item id="a7d7fedc6ee4426eb965e62be4d413f8" cid="C004" type="class" name="Client" creator="" creation-date="09/09/2026 22:22:21" visibility="undefined">
+            <operations>
+              <operation id="oc3554619e4864475b2bf96a8cf8530cc703" cid="OP013" name="SeConnecter" creation-date="09/11/2026 14:46:21" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p9032d1b2ae824bacb61c7a9bb7049b60" name="ip" type="IPAdress" type-id="IPAdress" creation-date="09/11/2026 14:46:56" />
+                  <parameter id="p0e3598166e724f52bba7b4194d136177" name="port" type="Integer" type-id="Uml.Integer" creation-date="09/11/2026 14:54:51" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o209d4a2dac874b3c9b56db2174cea2a3561" cid="OP015" name="EnvoyerAction" creation-date="09/11/2026 14:55:55" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p2429b8c1be7140059f994e685017290c" name="typeAction" type="Integer" type-id="Uml.Integer" creation-date="09/11/2026 14:56:35" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o6a92f7f352954fbeaf472c652b00d59678" cid="OP019" name="RejouerPartie" creation-date="09/11/2026 15:14:44" type="" type-id="" visibility="public" />
+              <operation id="obfa10558a1df47bf98aeb511c45ba6fc21" cid="OP020" name="QuitterPartie" creation-date="09/11/2026 15:16:35" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
           <item id="69908dee151f4c098f9f87098ca187f5" cid="GNR005" type="generalization" creator="" creation-date="09/09/2026 22:22:28" from="5cd73361f1884842a2a33d78e5e54290" to="a7d7fedc6ee4426eb965e62be4d413f8" visibility="package" />
           <item id="4d6d647501eb4f10969ec01a8f722a55" cid="PROP043" type="property" name="degats" owner="a7af9062593f409684d0dfc9b2511f6e" creator="" creation-date="09/09/2026 22:10:46" visibility="private">
             <structural-feature type="Integer" type-id="Uml.Integer" />
@@ -1016,81 +1087,122 @@
           <item id="87b8c5e122fc4373a9be0595444f997c" cid="PROP042" type="property" name="armure" owner="a7af9062593f409684d0dfc9b2511f6e" creator="" creation-date="09/09/2026 22:10:40" visibility="private">
             <structural-feature type="Integer" type-id="Uml.Integer" />
           </item>
+          <item id="22d661483fa34005a9615d9d3b78f4f4" cid="C005" type="class" name="Partie" creation-date="09/11/2026 15:28:18">
+            <owned-items />
+            <attributes>
+              <attribute id="a7771ea223a2c4c4db0854908f83fd21a970" cid="PROP054" name="status" creation-date="09/11/2026 15:29:05" property-ref="68307e1d742c4800a727ba8eb606f3c6" />
+              <attribute id="a4beb95fce55b4858b5c1ca18435d79d4105" cid="PROP052" name="robotServeur" creation-date="09/11/2026 15:28:42" property-ref="8f258576fd4e4871aea87890925456ba" />
+              <attribute id="a1097907e8a27450baba9e1ae55fb9dd6986" cid="PROP053" name="robotClient" creation-date="09/11/2026 15:28:53" property-ref="a59d5d563cf845138af0218772ff5578" />
+            </attributes>
+          </item>
           <item id="b76f09b80e0f4e8dab434b3926dbee6d" cid="GNR004" type="generalization" creator="" creation-date="09/09/2026 22:22:14" from="5cd73361f1884842a2a33d78e5e54290" to="8825fa9f1f9f441c8d07aaa012df5faa" visibility="package" />
           <item id="587b7ecd626d4ab19c74a569639086ea" cid="PROP044" type="property" name="energie" owner="a7af9062593f409684d0dfc9b2511f6e" creator="" creation-date="09/09/2026 22:11:39" visibility="private">
             <structural-feature type="Integer" type-id="Uml.Integer" />
           </item>
-          <item id="b013710a3d9d4690b1b3d21fa6a8248c" cid="PROP049" type="property" name="port" owner="8825fa9f1f9f441c8d07aaa012df5faa" creator="" creation-date="09/09/2026 22:23:11" visibility="private">
+          <item id="b013710a3d9d4690b1b3d21fa6a8248c" cid="PROP049" type="property" name="port" owner="5cd73361f1884842a2a33d78e5e54290" creator="" creation-date="09/09/2026 22:23:11" visibility="private">
             <structural-feature type="Integer" type-id="Uml.Integer" />
+          </item>
+          <item id="8f258576fd4e4871aea87890925456ba" cid="PROP052" type="property" name="robotServeur" owner="22d661483fa34005a9615d9d3b78f4f4" creation-date="09/11/2026 15:28:42" visibility="private">
+            <structural-feature type="Robot" type-id="Class:e89fa079e48441298ea9f8942eb67f78" />
           </item>
           <item id="5cd73361f1884842a2a33d78e5e54290" cid="C002" type="class" name="Joueur" creator="" creation-date="09/09/2026 22:13:51" visibility="undefined" is-abstract="true">
             <owned-items />
             <attributes>
-              <attribute id="ac43dfe5a0b5c4d92aa640bb4c1309d9e80" cid="PROP045" name="Robot" creation-date="09/09/2026 22:13:58" property-ref="e89fa079e48441298ea9f8942eb67f78" />
               <attribute id="a25d51a0a420a4002b81c0453e471a280709" cid="PROP046" name="nom" creation-date="09/09/2026 22:14:11" property-ref="d496f5a843a049ebbd62a33cd60407d1" />
+              <attribute id="a33df7bdaede4434fa82f27dd292bdbc0581" cid="PROP049" name="port" creation-date="09/09/2026 22:23:11" property-ref="b013710a3d9d4690b1b3d21fa6a8248c" />
+              <attribute id="a15b1813ba800493aad190b80a3f02c7d263" cid="PROP051" name="endPoint" creation-date="09/11/2026 15:07:50" property-ref="a0cf72f1bbb345439e3d6af6b0afa073" />
+              <attribute id="a0cd56fc6ecb644e1a2189678e2ed6505474" cid="PROP050" name="socket" creation-date="09/11/2026 15:03:31" property-ref="a9e766aab2b547bfb0488510d74ecf8c" />
+              <attribute id="a5c4a7d7bbbea4b4e83b27ef143b9ce94124" cid="PROP055" name="partie" creation-date="09/11/2026 15:30:26" property-ref="d0c15b84b7a24411a1aacd8aed682399" />
             </attributes>
             <operations>
-              <operation id="o804f7a1ce64c44febb7e3c7382f86818339" cid="OP005" name="ConfigRobot" creation-date="09/09/2026 22:14:39" type="Robot" type-id="Class:e89fa079e48441298ea9f8942eb67f78" visibility="public">
-                <source-codes>
-                  <source-code language="ActionScript" />
-                </source-codes>
-              </operation>
               <operation id="o1f61ab0c12274f598cc2f1d99c83107b697" cid="OP006" name="JouerAction" creation-date="09/09/2026 22:16:29" type="Integer" type-id="Uml.Integer" visibility="public">
                 <source-codes>
                   <source-code language="ActionScript" />
                 </source-codes>
               </operation>
               <operation id="o530ad2fff6e747c48b70e4c18027f27e50" cid="OP007" name="VerifAction" creation-date="09/09/2026 22:25:30" type="" type-id="" visibility="public" />
+              <operation id="o94a3487d66a3455d924af31757bea3d5669" cid="OP010" name="ConfigRobot" creation-date="09/11/2026 14:30:35" type="(int, int, int)" type-id="(int, int, int)" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o5d3ccd90a9944236ab65f9f583024ea411" cid="OP014" name="AfficherPartie" creation-date="09/11/2026 14:50:22" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pbf1ab1e819ff46ae95ac1515b1b19bee" name="partie" type="Partie" type-id="Class:22d661483fa34005a9615d9d3b78f4f4" creation-date="09/11/2026 15:43:06" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o6f489a3b77aa476ea9489399305029be967" cid="OP017" name="RejouerPartie" creation-date="09/11/2026 15:13:37" type="" type-id="" visibility="public" abstract="true">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
             </operations>
           </item>
         </abstract-items>
         <layer id="9d5128ce33db4ae49b227aba2bf0f33e" name="Default" visible="true" enabled="true" locked="false">
           <item id="a7af9062593f409684d0dfc9b2511f6e" iid="50e2dc53999742d89bedb1aa1f1974d2" show-fields="true" creation-date="09/09/2026 22:09:51" order-index="0" type="entity">
-            <layout ax="360" ay="42" awidth="356" aheight="228" x="360" y="42" width="140" height="210" />
+            <layout ax="390" ay="44" awidth="367" aheight="228" x="390" y="44" width="367" height="210" />
             <classifier />
             <class />
           </item>
           <item id="5cd73361f1884842a2a33d78e5e54290" iid="6c0a452634b348d49061112fa536b175" show-fields="true" creation-date="09/09/2026 22:13:51" order-index="1" type="entity">
-            <layout ax="438" ay="347" awidth="200" aheight="160" x="438" y="347" width="200" height="160" />
+            <layout ax="347" ay="341" awidth="453" aheight="247" x="347" y="341" width="453" height="247" />
             <classifier />
             <class />
           </item>
-          <item id="89c36fa6cd4a44a1ae2f1b1837760856" iid="22a449eacf224ef08e5539cb8ad6f8b8" creation-date="09/09/2026 22:20:21" order-index="2" type="relation">
-            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="538" y1="347" x2="538" y2="270" start-border-pos="0.125" end-border-pos="0.625" name-position="-7,18">
-              <points>
-                <point x="538" y="347" />
-                <point x="538" y="270" />
-              </points>
-            </layout>
-            <relation from="5cd73361f1884842a2a33d78e5e54290" from-iid="6c0a452634b348d49061112fa536b175" to="a7af9062593f409684d0dfc9b2511f6e" to-iid="50e2dc53999742d89bedb1aa1f1974d2" />
-          </item>
           <item id="8825fa9f1f9f441c8d07aaa012df5faa" iid="e97238e177d64c4cbf7f12a0f530a82b" show-fields="true" creation-date="09/09/2026 22:22:05" order-index="3" type="entity">
-            <layout ax="394" ay="637" awidth="140" aheight="160" x="394" y="637" width="140" height="160" />
+            <layout ax="41" ay="666" awidth="521" aheight="145" x="41" y="666" width="521" height="145" />
             <classifier />
             <class />
           </item>
           <item id="b76f09b80e0f4e8dab434b3926dbee6d" iid="f48abd980eaf41b6b6dcdcd618f73e3a" creation-date="09/09/2026 22:22:14" order-index="4" type="relation">
-            <layout line-style="oblique" lock-end-point="true" lock-to-fields="false" auto-path="" x1="510" y1="507" x2="464" y2="637" start-border-pos="0.6602381134033203" end-border-pos="0.125" end-local-pos="70" name-position="0,20">
+            <layout line-style="oblique" lock-end-point="true" lock-to-fields="false" auto-path="" x1="407" y1="588" x2="302" y2="666" start-border-pos="0.7168710131782043" end-border-pos="0.125" end-local-pos="70" name-position="0,20">
               <points>
-                <point x="510" y="507" />
-                <point x="464" y="637" />
+                <point x="407" y="588" />
+                <point x="302" y="666" />
               </points>
             </layout>
             <relation from="5cd73361f1884842a2a33d78e5e54290" from-iid="6c0a452634b348d49061112fa536b175" to="8825fa9f1f9f441c8d07aaa012df5faa" to-iid="e97238e177d64c4cbf7f12a0f530a82b" />
           </item>
           <item id="a7d7fedc6ee4426eb965e62be4d413f8" iid="82225087c094489d9f38daaf073b9699" show-fields="true" creation-date="09/09/2026 22:22:21" order-index="5" type="entity">
-            <layout ax="716" ay="622" awidth="140" aheight="160" x="716" y="622" width="140" height="160" />
+            <layout ax="728" ay="666" awidth="270" aheight="128" x="728" y="666" width="270" height="128" />
             <classifier />
             <class />
           </item>
           <item id="69908dee151f4c098f9f87098ca187f5" iid="f0c1086a36794dd7a3c89fd4da95c828" creation-date="09/09/2026 22:22:28" order-index="6" type="relation">
-            <layout line-style="oblique" lock-end-point="true" lock-to-fields="false" auto-path="" x1="638" y1="506" x2="786" y2="622" start-border-pos="0.49785785675048827" end-border-pos="0.125" end-local-pos="70" name-position="-14,208">
+            <layout line-style="oblique" lock-end-point="true" lock-to-fields="false" auto-path="" x1="751" y1="588" x2="863" y2="666" start-border-pos="0.5268179112449124" end-border-pos="0.125" end-local-pos="70" name-position="-14,208">
               <points>
-                <point x="638" y="506" />
-                <point x="786" y="622" />
+                <point x="751" y="588" />
+                <point x="863" y="666" />
               </points>
             </layout>
             <relation from="5cd73361f1884842a2a33d78e5e54290" from-iid="6c0a452634b348d49061112fa536b175" to="a7d7fedc6ee4426eb965e62be4d413f8" to-iid="82225087c094489d9f38daaf073b9699" />
+          </item>
+          <item id="22d661483fa34005a9615d9d3b78f4f4" iid="2df9912e1bed4a53a06b17995e2c32a2" show-fields="true" creation-date="09/11/2026 15:28:18" order-index="7" type="entity">
+            <layout ax="-26" ay="291" awidth="183" aheight="104" x="-26" y="291" width="183" height="104" />
+            <classifier />
+            <class />
+          </item>
+          <item id="5dc85ff4b1a64802b8b99c0f739e67dc" iid="a9ab3d12a11d4a5486f821ecf4770255" creation-date="09/11/2026 15:30:11" order-index="8" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="157" y1="291" x2="390" y2="153" start-border-pos="0.25" end-border-pos="0.8804824561403508" start-local-pos="0" end-local-pos="109" name-position="0,20">
+              <points>
+                <point x="157" y="291" />
+                <point x="390" y="153" />
+              </points>
+            </layout>
+            <relation from="22d661483fa34005a9615d9d3b78f4f4" from-iid="2df9912e1bed4a53a06b17995e2c32a2" to="a7af9062593f409684d0dfc9b2511f6e" to-iid="50e2dc53999742d89bedb1aa1f1974d2" />
+          </item>
+          <item id="ebbd3b7dc4854ddaabb5b3b6423d9a70" iid="fc8241d422fe4c738f72872579175f5b" creation-date="09/11/2026 15:30:19" order-index="9" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="347" y1="447" x2="157" y2="343" start-border-pos="0.8927125506072875" end-border-pos="0.375" start-local-pos="106" end-local-pos="64" name-position="0,20">
+              <points>
+                <point x="347" y="447" />
+                <point x="157" y="343" />
+              </points>
+            </layout>
+            <relation from="5cd73361f1884842a2a33d78e5e54290" from-iid="6c0a452634b348d49061112fa536b175" to="22d661483fa34005a9615d9d3b78f4f4" to-iid="2df9912e1bed4a53a06b17995e2c32a2" />
           </item>
         </layer>
       </diagram>
