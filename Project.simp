@@ -231,9 +231,113 @@
     <item id="d328bb192e77428ba42e5c21018f4a0a" cid="PROP004" type="property" owner="aa8e57c86713430889dfcb1587e2185c" creator="" creation-date="09/09/2026 21:49:24" visibility="private" />
     <item id="2e867afa0df54eacb31549af62dbb6ea" cid="LBL003" type="ui-label" name="Player 2" owner="ed0e800bbbd64326b34f89328a889604" creation-date="09/04/2026 09:32:00" />
     <item id="375ff381e81c40de820e8cbcf9d804bb" cid="PROP025" type="property" owner="d33b14ddd52049a192a2ffeb95f143bd" creator="" creation-date="09/09/2026 21:58:26" visibility="private" />
+    <item id="6ec8619d29e340f995673d37d3cd542a" cid="PROP041" type="property" name="pv" owner="a7af9062593f409684d0dfc9b2511f6e" creator="" creation-date="09/09/2026 22:10:14" visibility="private">
+      <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="Integer" type-id="Uml.Integer" />
+      <property default-value="100" />
+    </item>
+    <item id="4d6d647501eb4f10969ec01a8f722a55" cid="PROP043" type="property" name="degats" owner="a7af9062593f409684d0dfc9b2511f6e" creator="" creation-date="09/09/2026 22:10:46" visibility="private">
+      <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="Integer" type-id="Uml.Integer" />
+      <property default-value="10" />
+    </item>
     <item id="bc9e8423d6c348a197d7f40fac1c4e2b" cid="PROP034" type="property" owner="1e850c476b2c4501b5b9f5b1e0cdd352" creator="" creation-date="09/09/2026 22:00:36" visibility="private" />
+    <item id="87b8c5e122fc4373a9be0595444f997c" cid="PROP042" type="property" name="armure" owner="a7af9062593f409684d0dfc9b2511f6e" creator="" creation-date="09/09/2026 22:10:40" visibility="private">
+      <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="Integer" type-id="Uml.Integer" />
+      <property default-value="0" />
+    </item>
     <item id="93186eae45de426f87bfe5705a0f29ac" cid="LBL007" type="ui-label" owner="862164605e5549db990bf8e96e875052" creation-date="09/04/2026 09:47:57" />
     <item id="b99100f408cd42b8bb21fbd2967ceb85" cid="PROP023" type="property" owner="d9582f8ca7cf42ec82d1dcae198d34c5" creator="" creation-date="09/09/2026 21:54:44" visibility="private" />
+    <item id="587b7ecd626d4ab19c74a569639086ea" cid="PROP044" type="property" name="energie" owner="a7af9062593f409684d0dfc9b2511f6e" creator="" creation-date="09/09/2026 22:11:39" visibility="private">
+      <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="Integer" type-id="Uml.Integer" />
+      <property default-value="0" />
+    </item>
     <item id="1c0e0f0758d84f1392289267d67cb5a6" cid="LBL006" type="ui-label" name="Adresse IP :" owner="862164605e5549db990bf8e96e875052" creation-date="09/04/2026 09:39:18" />
     <item id="a1a36b4ce1864f89a635be23b3c3994c" cid="PROP028" type="property" owner="36482fbc9b8e40d287bc951d0e474f24" creator="" creation-date="09/09/2026 21:58:36" visibility="private" />
     <item id="e8997854758b482a86d5364645252983" cid="LBL007" type="ui-label" owner="862164605e5549db990bf8e96e875052" creation-date="09/04/2026 09:47:57" />
@@ -1002,26 +1106,10 @@
               <operation id="o1ea30672ee2f44788fd2579d4ec883fb249" cid="OP022" name="VerifierConfiguration" creation-date="09/14/2026 09:47:00" type="Boolean" type-id="Uml.Boolean" visibility="public" />
               <operation id="o554d1188587a4174b3a6ac0920a32d32100" cid="OP023" name="Robot" creation-date="09/14/2026 10:13:22" type="" type-id="" visibility="public">
                 <parameters>
-                  <parameter id="p215fe0fe3dd842119352d848476bb420" name="pv" type="Integer" type-id="Uml.Integer" creation-date="09/14/2026 10:13:22">
-                    <tagged-values>
-                      <tagged-value id="tv535a63064e894fb6910c001f3cd9d104" name="set_pv" type="reference" multiple="false" hidden="false" ref="6ec8619d29e340f995673d37d3cd542a" />
-                    </tagged-values>
-                  </parameter>
-                  <parameter id="p4f81305960b24b9a988d6d08c0c707f5" name="armure" type="Integer" type-id="Uml.Integer" creation-date="09/14/2026 10:13:22">
-                    <tagged-values>
-                      <tagged-value id="tve16e65d050dc40dcbfab5cffb1bce44c" name="set_armure" type="reference" multiple="false" hidden="false" ref="87b8c5e122fc4373a9be0595444f997c" />
-                    </tagged-values>
-                  </parameter>
-                  <parameter id="p8e7f1aa3aedf4d949fbb6b9d193eb982" name="degats" type="Integer" type-id="Uml.Integer" creation-date="09/14/2026 10:13:22">
-                    <tagged-values>
-                      <tagged-value id="tv389c3981471f4b73a5405e67a3ff35c5" name="set_degats" type="reference" multiple="false" hidden="false" ref="4d6d647501eb4f10969ec01a8f722a55" />
-                    </tagged-values>
-                  </parameter>
-                  <parameter id="p9ecd081ded384c7cb4fc9d40c425027d" name="energie" type="Integer" type-id="Uml.Integer" creation-date="09/14/2026 10:13:22">
-                    <tagged-values>
-                      <tagged-value id="tv3d161f09660d49578bd81987accd1ca6" name="set_energie" type="reference" multiple="false" hidden="false" ref="587b7ecd626d4ab19c74a569639086ea" />
-                    </tagged-values>
-                  </parameter>
+                  <parameter id="p215fe0fe3dd842119352d848476bb420" name="pv" type="Integer" type-id="Uml.Integer" creation-date="09/14/2026 10:13:22" />
+                  <parameter id="p4f81305960b24b9a988d6d08c0c707f5" name="armure" type="Integer" type-id="Uml.Integer" creation-date="09/14/2026 10:13:22" />
+                  <parameter id="p8e7f1aa3aedf4d949fbb6b9d193eb982" name="degats" type="Integer" type-id="Uml.Integer" creation-date="09/14/2026 10:13:22" />
+                  <parameter id="p9ecd081ded384c7cb4fc9d40c425027d" name="energie" type="Integer" type-id="Uml.Integer" creation-date="09/14/2026 10:13:22" />
                 </parameters>
                 <stereotypes>
                   <stereotype>create</stereotype>
@@ -1034,35 +1122,26 @@
               </operation>
               <operation id="o39b595019f61419cacd7dffb4682760f212" cid="OP025" name="Robot" creation-date="09/14/2026 10:14:00" type="" type-id="" visibility="public">
                 <parameters>
-                  <parameter id="p68c6d74678964e84b04f6285e1dc21b2" name="ptPv" type="Integer" type-id="Uml.Integer" creation-date="09/14/2026 10:14:00">
-                    <tagged-values>
-                      <tagged-value id="tvca558d8e68504cc3b89475fbe4de611d" name="set_pv" type="reference" multiple="false" hidden="false" ref="6ec8619d29e340f995673d37d3cd542a" />
-                    </tagged-values>
-                  </parameter>
-                  <parameter id="p2b5f66410dfd4752a84d1f11186745d0" name="ptArmure" type="Integer" type-id="Uml.Integer" creation-date="09/14/2026 10:14:00">
-                    <tagged-values>
-                      <tagged-value id="tvf4a577e8b34c4c45b5a2786a6c25d3de" name="set_armure" type="reference" multiple="false" hidden="false" ref="87b8c5e122fc4373a9be0595444f997c" />
-                    </tagged-values>
-                  </parameter>
-                  <parameter id="p9147f94a423c4af2af67b827e9fe01f3" name="ptForce" type="Integer" type-id="Uml.Integer" creation-date="09/14/2026 10:14:00">
-                    <tagged-values>
-                      <tagged-value id="tv9dd7d7ceb1bf4e2384c3376e7764949a" name="set_energie" type="reference" multiple="false" hidden="false" ref="587b7ecd626d4ab19c74a569639086ea" />
-                    </tagged-values>
-                  </parameter>
+                  <parameter id="p68c6d74678964e84b04f6285e1dc21b2" name="ptPv" type="Integer" type-id="Uml.Integer" creation-date="09/14/2026 10:14:00" />
+                  <parameter id="p2b5f66410dfd4752a84d1f11186745d0" name="ptArmure" type="Integer" type-id="Uml.Integer" creation-date="09/14/2026 10:14:00" />
+                  <parameter id="p9147f94a423c4af2af67b827e9fe01f3" name="ptForce" type="Integer" type-id="Uml.Integer" creation-date="09/14/2026 10:14:00" />
                 </parameters>
                 <stereotypes>
                   <stereotype>create</stereotype>
                 </stereotypes>
               </operation>
             </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
           </item>
           <item id="8825fa9f1f9f441c8d07aaa012df5faa" cid="C003" type="class" name="Serveur" creator="" creation-date="09/09/2026 22:22:05" visibility="undefined">
             <operations>
               <operation id="of217964825614ac4a848d9f1c918faab210" cid="OP011" name="CreerRobot" creation-date="09/11/2026 14:38:14" type="Robot" type-id="Class:e89fa079e48441298ea9f8942eb67f78" visibility="public">
                 <parameters>
-                  <parameter id="pe4a8e6d592c84867be70db24b790703d" name="pVie" type="Integer" type-id="Uml.Integer" creation-date="09/11/2026 14:39:02" />
-                  <parameter id="p351371e0802f48dd88a485a8afdc4221" name="pArmor" type="Integer" type-id="Uml.Integer" creation-date="09/11/2026 14:39:19" />
-                  <parameter id="p933b1929c61f4ae6979803e070428754" name="pForce" type="Integer" type-id="Uml.Integer" creation-date="09/11/2026 14:39:47" />
+                  <parameter id="pe4a8e6d592c84867be70db24b790703d" name="ptVie" type="Integer" type-id="Uml.Integer" creation-date="09/11/2026 14:39:02" />
+                  <parameter id="p351371e0802f48dd88a485a8afdc4221" name="ptArmor" type="Integer" type-id="Uml.Integer" creation-date="09/11/2026 14:39:19" />
+                  <parameter id="p933b1929c61f4ae6979803e070428754" name="ptForce" type="Integer" type-id="Uml.Integer" creation-date="09/11/2026 14:39:47" />
                 </parameters>
                 <source-codes>
                   <source-code language="ActionScript" />
@@ -1109,9 +1188,6 @@
           <item id="e89fa079e48441298ea9f8942eb67f78" cid="PROP045" type="property" name="Robot" owner="5cd73361f1884842a2a33d78e5e54290" creator="" creation-date="09/09/2026 22:13:58" visibility="private">
             <structural-feature type="Robot" type-id="Class:e89fa079e48441298ea9f8942eb67f78" />
           </item>
-          <item id="6ec8619d29e340f995673d37d3cd542a" cid="PROP041" type="property" name="pv" owner="a7af9062593f409684d0dfc9b2511f6e" creator="" creation-date="09/09/2026 22:10:14" visibility="private">
-            <structural-feature type="Integer" type-id="Uml.Integer" />
-          </item>
           <item id="a59d5d563cf845138af0218772ff5578" cid="PROP053" type="property" name="robotClient" owner="22d661483fa34005a9615d9d3b78f4f4" creation-date="09/11/2026 15:28:53" visibility="private">
             <structural-feature type="Robot" type-id="Class:e89fa079e48441298ea9f8942eb67f78" />
           </item>
@@ -1126,7 +1202,7 @@
                   <source-code language="ActionScript" />
                 </source-codes>
               </operation>
-              <operation id="o5999f8aa0a584702ae33207dbba8b54f712" cid="OP026" name="SaisirIP" creation-date="09/14/2026 10:29:01" type="IPAdress" type-id="IPAdress" visibility="public">
+              <operation id="o5999f8aa0a584702ae33207dbba8b54f712" cid="OP026" name="SaisirIP" creation-date="09/14/2026 10:29:01" type="IPAdress" type-id="IPAdress" visibility="public" static="true">
                 <parameters>
                   <parameter id="pcf3b3e7d9b494083ac53c755ee6e5206" name="saisie" type="string" type-id="string" creation-date="09/14/2026 10:29:37" />
                 </parameters>
@@ -1144,12 +1220,6 @@
             </operations>
           </item>
           <item id="69908dee151f4c098f9f87098ca187f5" cid="GNR005" type="generalization" creator="" creation-date="09/09/2026 22:22:28" from="5cd73361f1884842a2a33d78e5e54290" to="a7d7fedc6ee4426eb965e62be4d413f8" visibility="package" />
-          <item id="4d6d647501eb4f10969ec01a8f722a55" cid="PROP043" type="property" name="degats" owner="a7af9062593f409684d0dfc9b2511f6e" creator="" creation-date="09/09/2026 22:10:46" visibility="private">
-            <structural-feature type="Integer" type-id="Uml.Integer" />
-          </item>
-          <item id="87b8c5e122fc4373a9be0595444f997c" cid="PROP042" type="property" name="armure" owner="a7af9062593f409684d0dfc9b2511f6e" creator="" creation-date="09/09/2026 22:10:40" visibility="private">
-            <structural-feature type="Integer" type-id="Uml.Integer" />
-          </item>
           <item id="22d661483fa34005a9615d9d3b78f4f4" cid="C005" type="class" name="Partie" creation-date="09/11/2026 15:28:18" visibility="undefined">
             <owned-items />
             <attributes>
@@ -1159,9 +1229,6 @@
             </attributes>
           </item>
           <item id="b76f09b80e0f4e8dab434b3926dbee6d" cid="GNR004" type="generalization" creator="" creation-date="09/09/2026 22:22:14" from="5cd73361f1884842a2a33d78e5e54290" to="8825fa9f1f9f441c8d07aaa012df5faa" visibility="package" />
-          <item id="587b7ecd626d4ab19c74a569639086ea" cid="PROP044" type="property" name="energie" owner="a7af9062593f409684d0dfc9b2511f6e" creator="" creation-date="09/09/2026 22:11:39" visibility="private">
-            <structural-feature type="Integer" type-id="Uml.Integer" />
-          </item>
           <item id="b013710a3d9d4690b1b3d21fa6a8248c" cid="PROP049" type="property" name="port" owner="5cd73361f1884842a2a33d78e5e54290" creator="" creation-date="09/09/2026 22:23:11" visibility="private">
             <structural-feature type="Integer" type-id="Uml.Integer" />
           </item>
@@ -1180,7 +1247,12 @@
                   <source-code language="ActionScript" />
                 </source-codes>
               </operation>
-              <operation id="o94a3487d66a3455d924af31757bea3d5669" cid="OP010" name="ConfigRobot" creation-date="09/11/2026 14:30:35" type="(int, int, int)" type-id="(int, int, int)" visibility="public">
+              <operation id="o94a3487d66a3455d924af31757bea3d5669" cid="OP010" name="ConfigRobot" creation-date="09/11/2026 14:30:35" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pdedb5bda7f9447808e99d07f511c8a83" name="pv" type="Integer" type-id="Uml.Integer" creation-date="09/16/2026 15:53:08" />
+                  <parameter id="p1392a93c80c349938b11f091e183ab18" name="armure" type="Integer" type-id="Uml.Integer" creation-date="09/16/2026 15:53:08" />
+                  <parameter id="pebebd0e818f941bc80ce2731fa2fce0f" name="degats" type="Integer" type-id="Uml.Integer" creation-date="09/16/2026 15:53:47" />
+                </parameters>
                 <source-codes>
                   <source-code language="ActionScript" />
                 </source-codes>
